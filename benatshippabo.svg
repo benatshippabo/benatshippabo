@@ -5,7 +5,7 @@
         .name {
           font-size: 100px;
           font-family: sans-serif;
-          background-image: url("https://www.apple.com/v/iphone-xr/b/images/overview/copy_texture_1_large.jpg");
+          background-image: url("./bg.jpg");
           background-repeat: repeat;
           color: transparent;
           background-clip: text;
@@ -14,12 +14,6 @@
           animation-duration: 60s;
           animation-iteration-count: infinite;
           animation-timing-function: linear;
-        }
-        body {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          background-color: transparent;
         }
         @keyframes makeCool {
           from {
